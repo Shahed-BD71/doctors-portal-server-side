@@ -5,10 +5,7 @@ const fs = require("fs-extra");
 const fileUpload = require('express-fileUpload');
 require('dotenv').config();
 
-
-
-
-// middleware
+//middleware
 const app = express()
 app.use(bodyParser.json());
 app.use(cors());
